@@ -73,28 +73,28 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S01</td>
             <td>Bienvenida, encuadre y diagnóstico</td>
-            <td align="left">(Completar al terminar la sesión)</td>
+            <td align="left">Aprendimos que lenguajes vamos a utilizar y que diferencia tenian con el anterior y que funcionalidad tienen para el entorno de la web</td>
             <td align="center"><a href="UA1/S01/" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S01/capturas/" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S02</td>
             <td>Entorno de trabajo, MVC y JavaScript</td>
-            <td align="left">(Completar al terminar la sesión)</td>
+            <td align="left">Instalamos las cosas necesarias para trabajar desde casa y tambien hicimos el primer sript del modulo</td>
             <td align="center"><a href="UA1/S02/" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S02/capturas/" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S03</td>
             <td>Entorno en el laboratorio y mi primer script</td>
-            <td align="left">(Completar al terminar la sesión)</td>
+            <td align="left">Instalamos pero en el laboratorio lo necesario para trabajar he hicimos un segundo script en el que vimos, las tres formas en las que podemos añadir nuestros script</td>
             <td align="center"><a href="UA1/S03/" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S03/capturas/" target="_blank" rel="noopener">Ver</a></td>
         </tr>
         <tr>
             <td align="center">S04</td>
             <td>Variables, constantes, tipos y operadores</td>
-            <td align="left">(Completar al terminar la sesión)</td>
+            <td align="left">Aprendimos como es que se ven las variables los tipos y operadores en javasript he hicimos practicas que me enseñaron como es que funciona estos, tambien vimos como pedir datos y guardarlos para pedirlos luego con la funcion prompt</td>
             <td align="center"><a href="UA1/S04/" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S04/capturas/" target="_blank" rel="noopener">Ver</a></td>
         </tr>
@@ -407,11 +407,11 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
 <details>
 <summary>▼<b>Clase 01 · 10/11/2026 · Bienvenida, encuadre y diagnóstico</b></summary>
 
-Archivo: [S01_Cuadro_comparativo_Nombre_Apellido.docx](UA1/S01/S01_Cuadro_comparativo_Nombre_Apellido.docx) (tarea para la clase 2).
+Archivo: [S01_Cuadro_comparativo_Nombre_Apellido.docx](UA1/S01/1.MaterialParticipanteS1/1.MaterialParticipanteS1/S01_Cuadro_comparativo_Jafeth_Espinoza.docx) (tarea para la clase 2).
 
 **Conclusión**
 
-La diferencia más importante que encontré entre C y JavaScript:
+La diferencia más importante que encontré entre C y JavaScript: Su intencion ya que C es para tocar la memoria y cambiarla en cambio javascript esta hecho especificamente para trabajar de la mano con las paginas web sin tener a un intermediario
 
 </details>
 
@@ -420,23 +420,23 @@ La diferencia más importante que encontré entre C y JavaScript:
 
 Archivo: [pruebas/js/pruebas.js](UA1/S02/pruebas/js/pruebas.js)
 
-| Línea | Qué mostró la consola | Tipo | Corrección |
-| ----- | --------------------- | ---- | ---------- |
-| 2     |                       |      |            |
-| 3     |                       |      |            |
-| 4     |                       |      |            |
-| 5     |                       |      |            |
-| 6     |                       |      |            |
-| 7     |                       |      |            |
+| Línea | Qué mostró la consola                  | Tipo      | Corrección                                                          |
+| ----- | -------------------------------------- | --------- | ------------------------------------------------------------------- |
+| 2     | El promedio                            | Ninguno   | Nada                                                                |
+| 3     | Uncaught SyntaxError: Unexpected token | Sintaxis  | Quitar el ) demas                                                   |
+| 4     | El total mal                           | Semantica | Poner un , despues de total y quitar el + antes de el primer numero |
+| 5     | Muestra texto                          | Ninguno   | Nada                                                                |
+| 6     | El perimetro mal                       | Semantica | Poner dentro de () la suma para que de lo que deberia               |
+| 7     | Uncaught SyntaxError: missing ) after  | Sintaxis  | Quitar "" demas solo dejar dos el de abrir y cerrar                 |
 
 **Autoevaluación**
 
 | Indicador                                                                                      | Sí  | Aún no |
 | ---------------------------------------------------------------------------------------------- | --- | ------ |
-| Copié Luz Clara en `luz-clara/` y Casa Tomillo en `casa-tomillo/`, y los abro con Live Server. |     |        |
-| Mi repositorio está en GitHub con el README.                                                   |     |        |
-| Distingo un error de sintaxis de uno de semántica.                                             |     |        |
-| Uso `//` para aislar un error y seguir probando.                                               |     |        |
+| Copié Luz Clara en `luz-clara/` y Casa Tomillo en `casa-tomillo/`, y los abro con Live Server. | si  |        |
+| Mi repositorio está en GitHub con el README.                                                   | si  |        |
+| Distingo un error de sintaxis de uno de semántica.                                             | si  |        |
+| Uso `//` para aislar un error y seguir probando.                                               | si  |        |
 
 </details>
 
@@ -497,25 +497,25 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 | #   | Expresión        | Mi predicción | Lo que mostró la consola |
 | --- | ---------------- | ------------- | ------------------------ |
-| 1   | `typeof "95000"` |               |                          |
-| 2   | `typeof 95000`   |               |                          |
-| 3   | `typeof 9.5`     |               |                          |
-| 4   | `typeof "true"`  |               |                          |
-| 5   | `"5" + 2`        |               |                          |
-| 6   | `"5" - 2`        |               |                          |
-| 7   | `5 === "5"`      |               |                          |
-| 8   | `10 % 3`         |               |                          |
-| 9   | `true && false`  |               |                          |
-| 10  | `!(3 > 2)`       |               |                          |
+| 1   | `typeof "95000"` | string        |                          |
+| 2   | `typeof 95000`   | number        |                          |
+| 3   | `typeof 9.5`     | number        |                          |
+| 4   | `typeof "true"`  | string        |                          |
+| 5   | `"5" + 2`        | 52            |                          |
+| 6   | `"5" - 2`        | 52            |                          |
+| 7   | `5 === "5"`      | False         |                          |
+| 8   | `10 % 3`         | 1             |                          |
+| 9   | `true && false`  | False         |                          |
+| 10  | `!(3 > 2)`       | False         |                          |
 
 **Autoevaluación**
 
 | Indicador                                                 | Sí  | Aún no |
 | --------------------------------------------------------- | --- | ------ |
-| Uso const si el valor no cambia y let si cambia.          |     |        |
-| Reconozco cadenas, números, booleanos y null.             |     |        |
-| Calculo con operadores en lugar de escribir el resultado. |     |        |
-| Sé que prompt devuelve texto y lo convierto con Number.   |     |        |
+| Uso const si el valor no cambia y let si cambia.          | Si  |        |
+| Reconozco cadenas, números, booleanos y null.             | si  |        |
+| Calculo con operadores en lugar de escribir el resultado. | si  |        |
+| Sé que prompt devuelve texto y lo convierto con Number.   | si  |        |
 
 </details>
 
