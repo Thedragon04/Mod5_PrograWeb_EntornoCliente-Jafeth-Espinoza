@@ -2,7 +2,7 @@
 
 <h1>📘 Portafolio de Evidencias</h1>
 
-<h3>Nombre Apellido1 Apellido2</h3>
+<h3>Jafeth Espinoza Villarreal</h3>
 
 <strong>CSTI12004 · Programación web en el entorno cliente</strong> · Instituto Nacional de Aprendizaje
 Programa CSTI14001 Desarrollo de páginas web · Facilitador: Giovanni Antonio Coto Calderón · 2026-2027
@@ -447,32 +447,32 @@ Archivos: [horario/js/horarios.js](UA1/S03/horario/js/horarios.js) · [luz-clara
 
 **Cacería de errores**
 
-| #   | Mensaje de la consola | Archivo:línea | Corrección |
-| --- | --------------------- | ------------- | ---------- |
-| 1   |                       |               |            |
-| 2   |                       |               |            |
-| 3   |                       |               |            |
-| 4   |                       |               |            |
+| #   | Mensaje de la consola                                                          | Archivo:línea | Corrección                                     |
+| --- | ------------------------------------------------------------------------------ | ------------- | ---------------------------------------------- |
+| 1   | Failed to load resource: the server responded with a status of 404 (Not Found) | index.html 10 | src="js/horarios.js"                           |
+| 2   | Uncaught SyntaxError: "" string literal contains an unescaped line break       | horarios.js 3 | Comillas dobles antes del cierre de )          |
+| 3   | Uncaught ReferenceError: Console is not defined                                | horarios.js 4 | Quitar la mayuscula de Consola y dejar consola |
+| 4   | Nada                                                                           | horarios.js 5 | Faltan el ;                                    |
 
 **Reto MVC**
 
-| Elemento | Componente | Justificación |
-| -------- | ---------- | ------------- |
-| 1        |            |               |
-| 2        |            |               |
-| 3        |            |               |
-| 4        |            |               |
-| 5        |            |               |
-| 6        |            |               |
+| Elemento | Componente  | Justificación                                   |
+| -------- | ----------- | ----------------------------------------------- |
+| 1        | Modelo      | Son datos                                       |
+| 2        | Vista       | Son cosas visuales que no pasan a segundo plano |
+| 3        | Controlador | Recibe el click de enviar                       |
+| 4        | Modelo      | Los datos de cupos estan aqui                   |
+| 5        | Vista       | Muestra un mensaje                              |
+| 6        | Controlador | Si no se clickea el acepto pide hacerlo         |
 
 **Autoevaluación**
 
 | Indicador                                                       | Sí  | Aún no |
 | --------------------------------------------------------------- | --- | ------ |
-| Enlazo un archivo .js al final del body o en el head con defer. |     |        |
-| Uso comentarios de línea y de bloque.                           |     |        |
-| Uso \n, \t, \", \\ y \u en textos.                              |     |        |
-| Leo el tipo de error, el mensaje y la línea en la consola.      |     |        |
+| Enlazo un archivo .js al final del body o en el head con defer. | Si  |        |
+| Uso comentarios de línea y de bloque.                           | Si  |        |
+| Uso \n, \t, \", \\ y \u en textos.                              | Si  |        |
+| Leo el tipo de error, el mensaje y la línea en la consola.      | Si  |        |
 
 </details>
 
@@ -497,16 +497,16 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 | #   | Expresión        | Mi predicción | Lo que mostró la consola |
 | --- | ---------------- | ------------- | ------------------------ |
-| 1   | `typeof "95000"` | string        |                          |
-| 2   | `typeof 95000`   | number        |                          |
-| 3   | `typeof 9.5`     | number        |                          |
-| 4   | `typeof "true"`  | string        |                          |
-| 5   | `"5" + 2`        | 52            |                          |
-| 6   | `"5" - 2`        | 52            |                          |
-| 7   | `5 === "5"`      | False         |                          |
-| 8   | `10 % 3`         | 1             |                          |
-| 9   | `true && false`  | False         |                          |
-| 10  | `!(3 > 2)`       | False         |                          |
+| 1   | `typeof "95000"` | string        | string                   |
+| 2   | `typeof 95000`   | number        | number                   |
+| 3   | `typeof 9.5`     | number        | number                   |
+| 4   | `typeof "true"`  | string        | string                   |
+| 5   | `"5" + 2`        | 52            | 52                       |
+| 6   | `"5" - 2`        | 52            | 3                        |
+| 7   | `5 === "5"`      | False         | False                    |
+| 8   | `10 % 3`         | 1             | 1                        |
+| 9   | `true && false`  | False         | False                    |
+| 10  | `!(3 > 2)`       | False         | False                    |
 
 **Autoevaluación**
 
