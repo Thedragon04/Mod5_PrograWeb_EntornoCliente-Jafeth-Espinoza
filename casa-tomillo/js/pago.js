@@ -4,7 +4,13 @@ const quitar = nombre.trim();
 const total = 105000;
 const opciones = { style: "currency", currency: "CRC" };
 const colones = new Intl.NumberFormat("es-CR", opciones);
+const opciones1 = { dateStyle: "full" };
 console.log(`Taller: ${quitar.toUpperCase()}`);
 const fechaIni = new Date(2026, 10, 21);
-console.log(`Inicio: ${fechaIni.toLocaleDateString("es-CR", { dateStyle: "full" })}`);
-console.log(`Total: ${colones.format(total)}`)
+console.log(`Inicio: ${fechaIni.toLocaleDateString("es-CR", opciones1)}`);
+console.log(`Total: ${colones.format(total)}`);
+cuotas = 4;
+console.log(`${cuotas} cuotas de ${colones.format(total / cuotas)}`);
+console.log(`¿Cuota exacta? ${Number.isInteger(total / cuotas)}`);
+cuotas = 3;
+console.log(`Con ${cuotas} cuotas: ${total / cuotas}`);
