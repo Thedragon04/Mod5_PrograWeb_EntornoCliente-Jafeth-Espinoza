@@ -539,11 +539,11 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 **Autoevaluación**
 | Indicador | Sí | Aún no |
 |---|---|---|
-| Uso métodos de Math (round, floor, ceil). | | |
-| Limpio y transformo textos (trim, toUpperCase, length). | | |
-| Creo fechas recordando que los meses empiezan en 0. | | |
-| Muestro montos en colones con Intl. | | |
-| Elijo entre Number, parseInt y parseFloat. | | |
+| Uso métodos de Math (round, floor, ceil). |Si| |
+| Limpio y transformo textos (trim, toUpperCase, length). |Si| |
+| Creo fechas recordando que los meses empiezan en 0. |Maso| |
+| Muestro montos en colones con Intl. |Si| |
+| Elijo entre Number, parseInt y parseFloat. |Si| |
 
 </details>
 
