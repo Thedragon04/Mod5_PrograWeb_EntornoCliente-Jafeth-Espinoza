@@ -101,7 +101,7 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S05</td>
             <td>Números, textos, fechas y conversión de datos</td>
-            <td align="left">(Completar al terminar la sesión)</td>
+            <td align="left">Aprendimos funciones para los numeros a utilizar planillas para no concatenar, como utilizar fechas y tipos de funciones de esta misma y como convertir datos de unos a otros</td>
             <td align="center"><a href="UA1/S05/" target="_blank" rel="noopener">Ver</a></td>
             <td align="center"><a href="UA1/S05/capturas/" target="_blank" rel="noopener">Ver</a></td>
         </tr>
@@ -516,6 +516,34 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 | Reconozco cadenas, números, booleanos y null.             | si  |        |
 | Calculo con operadores en lugar de escribir el resultado. | si  |        |
 | Sé que prompt devuelve texto y lo convierto con Number.   | si  |        |
+
+</details>
+
+<details>
+<summary>▼<b>Clase 05 · 16/11/2026 · Números, textos, fechas y conversión</b></summary>
+
+**Predicciones**
+| # | Expresión | Mi predicción | Lo que mostró la consola |
+|---|-----------|---------------|--------------------------|
+| 1 | `Math.round(2.5)` |3|3|
+| 2 | `Math.floor(9.99)` |9|9|
+| 3 | `"Luz".length` |3|3|
+| 4 | `"casa".toUpperCase()` |CASA|CASA|
+| 5 | `parseInt("12.9 horas")` |12|12|
+| 6 | `Number("doce")` |null|NaN|
+| 7 | `(3.14159).toFixed(2)` |3.14|3.14|
+| 8 | `typeof (10).toString()` |"10"|string|
+| 9 | `new Date(2026, 0, 1).getMonth()` |1 o enero|0|
+| 10 | <code>`2 + 3 = ${2 + 3}`</code> |Nose|error en el js sale como texto en el html no se si iba con la etiqueta code sin ella da = 2 + 3 = 5|
+
+**Autoevaluación**
+| Indicador | Sí | Aún no |
+|---|---|---|
+| Uso métodos de Math (round, floor, ceil). | | |
+| Limpio y transformo textos (trim, toUpperCase, length). | | |
+| Creo fechas recordando que los meses empiezan en 0. | | |
+| Muestro montos en colones con Intl. | | |
+| Elijo entre Number, parseInt y parseFloat. | | |
 
 </details>
 

@@ -13,4 +13,4 @@ cuotas = 4;
 console.log(`${cuotas} cuotas de ${colones.format(total / cuotas)}`);
 console.log(`¿Cuota exacta? ${Number.isInteger(total / cuotas)}`);
 cuotas = 3;
-console.log(`Con ${cuotas} cuotas: ${total / cuotas}`);
+console.log(`Con ${cuotas} cuotas: ${Math.ceil(total / cuotas)}`);
