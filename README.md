@@ -547,6 +547,39 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 
 </details>
 
+<details>
+<summary>▼<b>Clase 06 · 18/11/2026 · Decisiones y depuración</b></summary>
+
+**Ejercicio 1 · Pruebas de cupos.js**
+
+| Prueba               | Mensajes que mostró la consola        |
+| -------------------- | ------------------------------------- |
+| cupos = 6            | Hay cupos disponibles, Quedan 6 cupos |
+| cupos = 2            | ⚠ ¡Últimos cupos!, Quedan 2 cupos     |
+| cupos = 0            | ✖Taller lleno, Quedan 0 cupos         |
+| nivel = "Intermedio" | Requiere el nivel inicial             |
+
+**Ejercicio 3 · Cacería con DevTools**
+
+| Pregunta                                     | Respuesta                                    |
+| -------------------------------------------- | -------------------------------------------- |
+| ¿En qué línea puso el punto de interrupción? | 4                                            |
+| ¿Qué valor tenía descuento al detenerse?     | No                                           |
+| ¿Cuál era la causa del error?                | La condicion mas grande estaba de ultimo     |
+| ¿Cómo lo corrigió?                           | Cambiando la condicion mas grande de primera |
+
+**Autoevaluación**
+
+| Indicador                                                             | Sí  | Aún no |
+| --------------------------------------------------------------------- | --- | ------ |
+| Escribo if / else if / else con las condiciones en el orden correcto. | Si  |        |
+| Uso el ternario para elegir entre dos valores.                        | Si  |        |
+| Escribo switch con break y default.                                   | Si  |        |
+| Pongo un punto de interrupción y avanzo con F10.                      | Si  |        |
+| Uso try / catch para que el programa no se detenga.                   | Si  |        |
+
+</details>
+
 > 📌 **AQUÍ SE PEGAN LOS BLOQUES NUEVOS.** Pegue el bloque de cada clase (desde `<details>` hasta `</details>`) justo **arriba** de este aviso. El aviso queda siempre al final de la sección.
 
 ---
