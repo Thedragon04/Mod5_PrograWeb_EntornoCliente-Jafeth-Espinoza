@@ -1,11 +1,14 @@
-const dias = ["Martes", "Miercoles", "Jueves", "Viernes", "Sabado"];
-const talleres = [
-  "Cocina inicial Tartas",
-  "Masa madre",
-  "Cocina intermedia",
-  "Pan de campo",
-  "Bolleria Decoracion",
+const semana = [
+  ["Martes", "Cocina inicial", "Tartas"],
+  ["Miercoles", "Masa madre"],
+  ["Jueves", "Cocina intermedia"],
+  ["Viernes", "Pan de campo"],
+  ["Sabado", "Bolleria", "Decoracion"],
 ];
 
-for (const dias of talleres) {
+for (const dia of semana) {
+  let largo = dia.length;
+  let cantidad = largo - 1;
+
+  console.log(`${dia[0]} (${cantidad}): ${dia.slice(1).join(", ")}`);
 }
