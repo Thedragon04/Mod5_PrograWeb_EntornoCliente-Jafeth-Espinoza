@@ -25,7 +25,7 @@ class Reservas {
   }
   ingresos() {
     let suma = 0;
-    this.lista.forEac((r) => {
+    this.lista.forEach((r) => {
       //forEach con callback. r es cada reserva; se suma su precio
       suma += r.precio;
     });
