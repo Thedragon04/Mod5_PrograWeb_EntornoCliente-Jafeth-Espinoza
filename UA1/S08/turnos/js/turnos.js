@@ -14,3 +14,6 @@ console.log(turnoPan());
 console.log(turnoPan());
 console.log(turnoTarta());
 console.log(turnoPan());
+
+const s = (x, y) => x + y;
+console.log(s(2));

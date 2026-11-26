@@ -605,6 +605,34 @@ CÓMO USAR ESTE BLOQUE (Clase 04)
 | Leo los datos de un vector de objetos con el punto. | Si  |        |
 
 </details>
+<details>
+<summary>▼<b>Clase 08 · 24/11/2026 · Funciones</b></summary>
+
+**¿Qué muestra?** (prediga y luego compruebe en la consola)
+
+| #   | Código                                                 | Mi predicción    | Comprobado       |
+| --- | ------------------------------------------------------ | ---------------- | ---------------- |
+| 1   | `let a = 1; function f() { let a = 2; return a; } f()` | Un 2             | 2                |
+| 2   | `(después de lo anterior) a`                           | No entendi       |                  |
+| 3   | `function g() { let b = 5; } g(); b`                   | 5                | b is not defined |
+| 4   | `const doble = (n) => n * 2; doble(4)`                 | 8                | 8                |
+| 5   | `[1, 2, 3].map((n) => n * 10).join(", ")`              | 10,20,30         |                  |
+| 6   | `[5, 8, 2].filter((n) => n > 4).length`                | 5,8              | 5,8              |
+| 7   | `const s = (x, y) => x + y; s(2)`                      | missing argument | NaN              |
+
+**Autoevaluación**
+
+| Indicador                                      | Sí  | Aún no |
+| ---------------------------------------------- | --- | ------ |
+| Declaro una función y la llamo con argumentos. | Si  |        |
+| Uso return y entiendo qué pasa si falta.       | Si  |        |
+| Escribo una función flecha.                    | Si  |        |
+| Valido los parámetros antes de calcular.       | Si  |        |
+| Distingo una variable global de una local.     | Si  |        |
+| Uso forEach, map y filter con un callback.     | Si  |        |
+| Reconozco un closure y predigo su salida.      |     | Aun no |
+
+</details>
 
 > 📌 **AQUÍ SE PEGAN LOS BLOQUES NUEVOS.** Pegue el bloque de cada clase (desde `<details>` hasta `</details>`) justo **arriba** de este aviso. El aviso queda siempre al final de la sección.
 
