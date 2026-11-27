@@ -4,6 +4,24 @@ class Curso {
     this.precio = precio;
     this.vacantes = vacantes;
   }
-  inscribir(cantidad) {}
-  resumen() {}
+  inscribir(cantidad) {
+    if (cantidad > this.vacantes) {
+      return `Solo quedan ${this.vacantes} cupos`;
+    } else {
+      this.vacantes -= cantidad;
+      return `Incritas ${cantidad}. Quedan ${this.vacantes}`;
+    }
+  }
+  resumen() {
+    return `${this.nombre} · ${enColones(this.precio)} · ${this.vacantes}`;
+  }
 }
+
+const masaMadre = new Curso("Panaderia · Masa madre", 95000, 8);
+const tartas = new Curso("Reposteria · Tartas", 82000, 3);
+
+console.log(masaMadre.resumen());
+console.log(masaMadre.inscribir(2));
+console.log(tartas.inscribir(5));
+console.log(tartas.inscribir(3));
+console.log(tartas.resumen());
